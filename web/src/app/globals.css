@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+/* Tokens espelhados de app-ad/constants/app-theme.ts */
+@theme inline {
+  --color-bg: #070914;
+  --color-bg-elevated: #0b0f1a;
+  --color-card: #111827;
+  --color-card-hover: #0f172a;
+  --color-input: #0b1224;
+  --color-input-border: #1e293b;
+  --color-border: #1f2937;
+  --color-border-strong: #334155;
+  --color-text: #f8fafc;
+  --color-text-secondary: #e2e8f0;
+  --color-muted: #94a3b8;
+  --color-muted-dark: #64748b;
+  --color-placeholder: #64748b;
+  --color-accent: #59f4a8;
+  --color-accent-muted: rgba(89, 244, 168, 0.12);
+  --color-accent-border: rgba(89, 244, 168, 0.35);
+  --color-chip-on-bg: #0f1f18;
+  --color-on-accent: #0a0b12;
+  --color-danger: #f87171;
+  --color-danger-muted: rgba(248, 113, 113, 0.12);
+  --color-danger-border: rgba(248, 113, 113, 0.35);
+  --color-danger-text: #fca5a5;
+  --color-danger-text-bright: #fecaca;
+  --color-success-muted: rgba(34, 197, 94, 0.15);
+  --color-surface-muted: #1e293b;
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+}
